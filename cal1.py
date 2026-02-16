@@ -15,4 +15,5 @@ print(np.max(a))
 print(np.min(a))    
 print(np.mean(a))
 print(np.median(a)) 
-
+d=input("enter your name")
+print("hello", d)

@@ -19,3 +19,4 @@ if age>=18:
 else:    print("you are not eligible to vote")
 
 print(age)
+print(type(age))

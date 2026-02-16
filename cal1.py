@@ -11,4 +11,8 @@ print(np.dot(a,b))
 if np.array_equal(a,b):
     print("a and b are equal")      
 else:    print("a and b are not equal") 
+print(np.max(a))
+print(np.min(a))    
+print(np.mean(a))
+print(np.median(a)) 
 

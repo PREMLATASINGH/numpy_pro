@@ -13,10 +13,3 @@ diff=np.diff(arr)
 print("day to day changes", diff)
 fehrenheit=np.array(arr)*9/5+32
 print("fehrenheit", fehrenheit)
-age=int(input("enter your age"))
-if age>=18:
-    print("you are eligible to vote")   
-else:    print("you are not eligible to vote")
-
-print(age)
-print(type(age))

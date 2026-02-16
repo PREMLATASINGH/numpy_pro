@@ -11,3 +11,5 @@ arr4=np.median(arr)
 print(arr4)
 diff=np.diff(arr)
 print("day to day changes", diff)
+fehrenheit=np.array(arr)*9/5+32
+print("fehrenheit", fehrenheit)

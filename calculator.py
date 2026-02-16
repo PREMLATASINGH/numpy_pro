@@ -13,3 +13,6 @@ print(np.multiply(x,y))
 print(np.divide(x,y))   
 print(np.mod(x,y))
 print(np.dot(x,y))  
+if np.array_equal(x,y):
+    print("x and y are equal")  
+else:    print("x and y are not equal") 

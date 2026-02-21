@@ -7,3 +7,6 @@ arr1=arr.reshape(2,2)
 print(arr1)
 arr2=np.array([1,4])
 print(arr2)
+arr2=arr2.reshape(2,1)
+print(arr2)
+

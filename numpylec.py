@@ -50,3 +50,5 @@ arr7[1:]=300
 print(arr7)
 data=np.array([[1,2,3],[4,5,6],[7,8,9]])
 print(data)
+data>2
+print(data[data>2])

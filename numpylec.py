@@ -48,3 +48,5 @@ arr7[1,1,2]=200
 print(arr7)
 arr7[1:]=300
 print(arr7)
+data=np.array([[1,2,3],[4,5,6],[7,8,9]])
+print(data)

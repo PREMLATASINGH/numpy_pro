@@ -37,3 +37,5 @@ print(arr7[1:2:])
 print(arr7[:,0,:])
 arr7[0,0]=100
 print(arr7)
+arr7[1,1,2]=200
+print(arr7)

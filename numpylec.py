@@ -54,3 +54,4 @@ data>2
 print(data[data>2])
 print(data[(data>2) & (data<8)])
 print(data[(data>2) | (data<8)])
+print(data[(data>2) & (data<8) | (data==1)])

@@ -1,4 +1,5 @@
 import numpy as np
+import matplotlib.pyplot as plt 
 x=np.array([1,2,3,4,5])
 print(x)
 y=np.array([6,7,8,9,10])
@@ -16,3 +17,8 @@ print(np.dot(x,y))
 if np.array_equal(x,y):
     print("x and y are equal")  
 else:    print("x and y are not equal") 
+plt.plot(x, y)
+plt.xlabel('x')
+plt.ylabel('y')
+plt.title('Line Plot of x and y')
+plt.show()

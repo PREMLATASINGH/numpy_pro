@@ -1,4 +1,5 @@
 import numpy as np
+import matplotlib.pyplot as plt
 arr=np.array([30,40,50,60])
 print(arr)
 print(type(arr))
@@ -39,3 +40,8 @@ arr7[0,0]=100
 print(arr7)
 arr7[1,1,2]=200
 print(arr7)
+plt.plot(arr)
+plt.xlabel('Index')
+plt.ylabel('Value')
+plt.title('Line Plot of Array')
+plt.show()

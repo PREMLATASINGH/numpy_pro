@@ -14,3 +14,4 @@ print("day to day changes", diff)
 fehrenheit=np.array(arr)*9/5+32
 print("fehrenheit", fehrenheit)
 print("max", max(arr))
+print("min", min(arr))

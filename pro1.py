@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 # 1. Simulate 1000 dice rolls (values 1 to 6)
 rolls = np.random.randint(1, 7, size=1000)
@@ -45,4 +46,9 @@ plt.xlabel('Dice Value')
 plt.show()
 plt.pie(counts, labels=unique, autopct='%1.1f%%', colors=['red', 'green', 'blue', 'yellow', 'cyan', 'magenta'])
 plt.title('Percentage Distribution of Dice Rolls')
+plt.show()
+sns.countplot(x=rolls, palette='Set2')
+plt.xlabel('Dice Value')
+plt.ylabel('Frequency')
+plt.title('Count Plot of 1000 Dice Rolls')
 plt.show()

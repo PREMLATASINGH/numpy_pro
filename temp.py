@@ -46,4 +46,7 @@ plt.boxplot(arr, vert=False)
 plt.title('Box Plot of Temperature')
 plt.xlabel('Temperature')
 plt.show()
+plt.pie(arr, labels=range(len(arr)), autopct='%1.1f%%')
+plt.title('Temperature Distribution')
+plt.show()
 

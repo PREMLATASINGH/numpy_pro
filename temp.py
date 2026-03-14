@@ -42,4 +42,8 @@ plt.xlabel('Temperature')
 plt.ylabel('Frequency')
 plt.title('Temperature Distribution')
 plt.show()
+plt.boxplot(arr, vert=False)
+plt.title('Box Plot of Temperature')
+plt.xlabel('Temperature')
+plt.show()
 

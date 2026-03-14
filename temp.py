@@ -1,4 +1,5 @@
 import numpy as np
+import matplotlib.pyplot as plt
 arr=[30,40,50,60]
 print(arr)
 arr1=max(arr)
@@ -21,3 +22,9 @@ print("standard deviation", np.std(arr))
 print("variance", np.var(arr))
 print("percentiles", np.percentile(arr, [25, 50, 75]))
 print("correlation coefficient", np.corrcoef(arr, fehrenheit))
+plt.plot(arr)
+plt.xlabel('Index')
+plt.ylabel('Temperature')
+plt.title('Temperature Plot')
+plt.show()
+

@@ -57,3 +57,4 @@ print(data[(data>2) | (data<8)])
 print(data[(data>2) & (data<8) | (data==1)])
 print(data[(data>2) & (data<8) | (data==1) & (data!=5)])
 print(data[(data>2) & (data<8) | (data==1) & (data!=5) | (data==9)])
+

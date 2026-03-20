@@ -50,3 +50,5 @@ plt.pie(arr, labels=range(len(arr)), autopct='%1.1f%%')
 plt.title('Temperature Distribution')
 plt.show()
 
+
+
